@@ -1,0 +1,13 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Benjamin\Source\Repos\Unveiler\Test>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_WINDLL -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Benjamin\Source\Repos\Unveiler\Test\kernel.cu" 
+  kernel.cu
+C:/Users/Benjamin/Source/Repos/Unveiler/Test/kernel.cu(68): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/Benjamin/Source/Repos/Unveiler/Test/kernel.cu(95): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:/Users/Benjamin/Source/Repos/Unveiler/Test/kernel.cu(137): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:/Users/Benjamin/Source/Repos/Unveiler/Test/kernel.cu(141): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Test.vcxproj -> C:\Users\Benjamin\Source\Repos\Unveiler\x64\Debug\Test.dll
